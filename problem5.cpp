@@ -7,8 +7,8 @@ int main() {
 
     int upperCount = 0;
     int lowerCount = 0;
-    string upperChars = " ";
-    string lowerChars = " ";
+    string upperChars = "";
+    string lowerChars = "";
 
     for (char c : s) {
         if (c >= 'A' && c <= 'Z') {
