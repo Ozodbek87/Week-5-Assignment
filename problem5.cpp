@@ -19,15 +19,15 @@ int main() {
             lowerChars += c;
         }
     }
-    cout << upperCount;
+    cout << upperCount << " ";
     if (upperCount > 0) {
         for (int i = 0; i < upperChars.length(); ++i) {
-            cout << upperChars[i] <<" ";
+            cout  << upperChars[i] << " ";
         }
     }
     cout << endl;
 
-    cout << lowerCount;
+    cout << lowerCount << " ";
     if (lowerCount > 0) {
         for (int i = 0; i < lowerChars.length(); ++i) {
             cout << lowerChars[i] << " ";
